@@ -9,7 +9,9 @@ The objective was to create an efficient solver for the japanese puzzle game LIT
 
 # Algorithm
 
-The final deliverable uses DFS with forward checking as it had the best performance with more complex puzzles. A* came as a close second, showing better performance with higher depth puzzle solutions.
+The final deliverable uses A* as it was the most consistent for solving more complex puzzles. DFS came as a close second and even beating A* in various cases, but is less reliable as it's less consistent than A*. 
+
+The DFS algorithm is implemented with techniques such as forward checking and MRV to get the desired performance. Other techniques were also experimented, but didn't produce the times needed to pass the evaluation.
 
 ![Project Screenshot](solution_depth_vs_time.png)
 
