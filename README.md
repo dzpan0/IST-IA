@@ -5,6 +5,7 @@ The objective was to create an efficient solver for the japanese puzzle game LIT
 
 - Use [nuruomino.py](https://github.com/dzpan0/IST-IA/blob/main/LITS/nuruomino.py) to solve a puzzle.
 - Use [nuruomino_graph.py](https://github.com/dzpan0/IST-IA/blob/main/LITS/nuruomino_graph.py) to solve and visualize the final result solving process.
+  + Creates a image for each piece placement and a gif animating the placement process. Can be found in nuruomino_graphs/current (execution will delete previous graph in this directory)
 
 # Technologies
 
